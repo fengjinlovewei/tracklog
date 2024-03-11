@@ -1,0 +1,22 @@
+{
+  "name": "@zyb/tracklog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.min.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "dev": "tsc -watch",
+    "compress": "uglifyjs index.js -o index.min.js -c -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.zuoyebang.cc:zhiji/tracklog.git"
+  },
+  "author": "fengjin01",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "uglify-js": "^3.17.4"
+  }
+}
